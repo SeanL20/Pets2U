@@ -1,4 +1,4 @@
-require_relative 'Box'
+require_relative 'box'
 
 class Boxes
 	attr_accessor :boxes

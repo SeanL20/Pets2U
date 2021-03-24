@@ -1,4 +1,4 @@
-require_relative 'Animal'
+require_relative 'animal'
 
 class Animals
 	attr_accessor :animals
