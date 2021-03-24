@@ -7,4 +7,8 @@ class Box
 		@height = height.to_i
 	end
 
+	def area
+		area = @width*@height
+		return area
+	end
 end
