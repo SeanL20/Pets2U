@@ -7,11 +7,11 @@ class Boxes
 		@boxes = []
 	end
 
-	def create_box_form_array(boxes_array)
+	def create_boxes_from_array(boxes_array)
 		boxes_array.each do |box_name, width, height|
-			puts "TEST"
-			puts "name: #{box_name}, width: #{width}, height: #{height}"
-			puts "TEST"
+			box = Box.new(box_name: box_name, width: width, height: height)
+
+			@boxes << box
 		end
 	end
 end
